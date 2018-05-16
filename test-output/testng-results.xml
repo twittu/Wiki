@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Wiki Suite" duration-ms="89260" started-at="2018-05-15T17:11:28Z" finished-at="2018-05-15T17:12:57Z">
+    <groups>
+    </groups>
+    <test name="Validate Postive Test" duration-ms="33727" started-at="2018-05-15T17:11:28Z" finished-at="2018-05-15T17:12:01Z">
+      <class name="Tests.PostiveTest">
+        <test-method status="PASS" signature="browserIntiate()[pri:0, instance:Tests.PostiveTest@16d4b5c]" name="browserIntiate" is-config="true" duration-ms="20649" started-at="2018-05-15T22:41:28Z" finished-at="2018-05-15T22:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserIntiate -->
+        <test-method status="PASS" signature="searchWithValidTest(java.lang.String)[pri:0, instance:Tests.PostiveTest@16d4b5c]" name="searchWithValidTest" duration-ms="11807" started-at="2018-05-15T22:41:48Z" finished-at="2018-05-15T22:42:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Capgemini]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.PostiveTest@16d4b5c]" name="closeBrowser" is-config="true" duration-ms="1206" started-at="2018-05-15T22:42:00Z" finished-at="2018-05-15T22:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Tests.PostiveTest -->
+    </test> <!-- Validate Postive Test -->
+    <test name="Validate Negative Test" duration-ms="28847" started-at="2018-05-15T17:12:01Z" finished-at="2018-05-15T17:12:30Z">
+      <class name="Tests.NegativeTest">
+        <test-method status="PASS" signature="browserIntiate()[pri:0, instance:Tests.NegativeTest@4edc67]" name="browserIntiate" is-config="true" duration-ms="16724" started-at="2018-05-15T22:42:01Z" finished-at="2018-05-15T22:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserIntiate -->
+        <test-method status="PASS" signature="searchWithInValidTest(java.lang.String)[pri:0, instance:Tests.NegativeTest@4edc67]" name="searchWithInValidTest" duration-ms="10910" started-at="2018-05-15T22:42:18Z" finished-at="2018-05-15T22:42:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[see it comes back and search works]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInValidTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.NegativeTest@4edc67]" name="closeBrowser" is-config="true" duration-ms="1195" started-at="2018-05-15T22:42:29Z" finished-at="2018-05-15T22:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Tests.NegativeTest -->
+    </test> <!-- Validate Negative Test -->
+    <test name="Validate Sections in MainPage Test" duration-ms="26576" started-at="2018-05-15T17:12:30Z" finished-at="2018-05-15T17:12:57Z">
+      <class name="Tests.Validate_MainPage_Sections">
+        <test-method status="PASS" signature="browserIntiate()[pri:0, instance:Tests.Validate_MainPage_Sections@1275dab]" name="browserIntiate" is-config="true" duration-ms="18117" started-at="2018-05-15T22:42:30Z" finished-at="2018-05-15T22:42:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserIntiate -->
+        <test-method status="PASS" signature="verifySectionsInMainPageTest()[pri:0, instance:Tests.Validate_MainPage_Sections@1275dab]" name="verifySectionsInMainPageTest" duration-ms="7351" started-at="2018-05-15T22:42:48Z" finished-at="2018-05-15T22:42:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySectionsInMainPageTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.Validate_MainPage_Sections@1275dab]" name="closeBrowser" is-config="true" duration-ms="1108" started-at="2018-05-15T22:42:56Z" finished-at="2018-05-15T22:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Tests.Validate_MainPage_Sections -->
+    </test> <!-- Validate Sections in MainPage Test -->
+  </suite> <!-- Wiki Suite -->
+</testng-results>

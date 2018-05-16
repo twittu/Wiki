@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Wiki Suite">
+	<test name="Validate Postive Test">
+		<parameter name="searchCapgemini" value="capgemini"></parameter>
+		<classes>
+			<class name="Tests.PostiveTest"></class>
+		</classes>
+	</test>
+	<test name="Validate Negative Test">
+		<parameter name="searchCapgemini" value="see it comes back and search works"></parameter>
+		<classes>
+			<class name="Tests.NegativeTest"></class>
+		</classes>
+	</test>
+	<test name="Validate Sections in MainPage Test">
+		<classes>
+			<class name="Tests.Validate_MainPage_Sections"></class>
+		</classes>
+	</test>
+</suite>
